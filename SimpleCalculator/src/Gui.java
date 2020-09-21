@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 public class Gui extends JFrame
 {
 	Calculator calculator;
-	public Gui (Calculator, calculator)
+	public Gui (Calculator calculator)
 	{
 		this.calculator = calculator;
 		
@@ -101,4 +101,5 @@ public class Gui extends JFrame
 	}
 	
 	add(buttonPanel, BorderLayout.SOUTH);
+	}
 }
